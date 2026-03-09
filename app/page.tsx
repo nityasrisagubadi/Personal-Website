@@ -1,26 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
+import "./globals.css";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-6 p-8">
-      
-      <div className="flex gap-6">
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
-        <Link href="/projects">Projects</Link>
-      </div>
 
-      <h1>Welcome to my Website! </h1>
-      <p>My name is Nitya Sagubadi, I am a freshman in Computer Science at the University of Illinois Chicago. </p>
-
-      <Image
-        src="/Campus-ARC-1090x595.avif"
-        alt="UIC Image"
-        width={500}
-        height={300}
+    <div className="header-image">
+      <img 
+        src="/Header-image.png"
+        alt="Header Image"
       />
-      
+    </div>
+
+    <section className="card-dark" style={{textAlign: "center"}}>
+      <h2><strong>Welcome to my Website!</strong></h2>
+      <p style={{fontSize: "20px", lineHeight: "1.6"}}>
+        I am a Computer Science student of UIC passionate about AI, software development, design, and building 
+        technology that creates a positive social impact.
+      </p>
+    </section>
+
+    <div className="nav-box" style={{textAlign: "center"}}>
+      <Link href="/about"><strong>About</strong></Link>
+      <Link href="/contact"><strong>Contact</strong></Link>
+      <Link href="/projects"><strong>Projects</strong></Link>
+    </div>
+
     </div>
   );
 }
