@@ -9,8 +9,8 @@ const projects = () => {
       <div className="nav-box" style={{textAlign: "center"}}>
         <Link href="/"><strong>Home</strong></Link>
         <Link href="/about"><strong>About</strong></Link>
-        <Link href="/contact"><strong>Contact</strong></Link>
         <Link href="/projects"><strong>Projects</strong></Link>
+        <Link href="/contact"><strong>Contact</strong></Link>
       </div>
 
       <section className="projects-card">
@@ -36,8 +36,10 @@ const projects = () => {
                 Supabase, Tailwinds, Git, GitHub, Visual Studio Code
               </li>
               <li>
-                <strong>REPO Link:</strong>
-                https://github.com/lope6/GlobalStudios.git
+                <strong>REPO Link: </strong>
+                <a href="https://github.com/lope6/GlobalStudios.git">
+                Click to View REPO
+                </a>
               </li>
             </ul>
           </div>

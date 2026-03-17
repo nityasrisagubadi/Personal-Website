@@ -36,11 +36,11 @@ body {
 .header-image{
   display: flex;
   justify-content: center;
-  margin-top: 10px; 
+  margin-top: 110px; 
 }
 
 .header-image img{
-  width: 1000%;
+  width: 100%;
   max-width: 1200px;
   border-radius: 22px;
 }
@@ -60,18 +60,20 @@ body {
   background:#FADCD9;
   padding: 28px;
   border-radius: 22px;
-  margin-top: 30px;
+  margin-top: 15px;
+  position: relative;
 }
 
 .card-dark{
-  background: #e49c8f;
+  background: #F8AFA6;
   padding: 28px;
   border-radius: 22px;
-  margin-top: 30px;
+  margin-top: 15px;
+  position: relative;
 }
 
 .education{
-  background: #e49c8f;
+  background: #F8AFA6;
 }
 
 /* EXPERIENCE SECTION */
@@ -80,19 +82,32 @@ body {
   display: grid;
   grid-template-columns: 1.4fr 1.2fr;
   gap: 25px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .experience-box{
-  background: #e49c8f;
+  background: #F8AFA6;
   padding: 20px;
   border-radius: 18px;
+  position: relative;
+}
+
+.experience-title{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.experience-star{
+  display: inline-flex;
+  height: auto;
+  width: 40px;
 }
 
 /* PROJECTS SECTION */
 
 .projects-card{
-  background: #e49c8f;
+  background: #F8AFA6;
   padding: 30px;
   border-radius: 22px;
   margin-top: 30px;
@@ -116,6 +131,33 @@ body {
   border-radius: 15px;
 }
 
+.projects-card a{
+  transition: color 0.2s ease;
+}
+
+.projects-card a:hover{
+  text-decoration: underline;
+}
+
+/* DESIGN IMAGES */
+
+.arrow-design{
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  width: 70px;
+}
+
+.circle-design{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 65px;
+  height: 60px;
+}
+
+
+
 /* CONTACTS SECTION */
 
 .hero{
@@ -134,6 +176,28 @@ body {
 
 .hero p{
   font-size: 18px;
+}
+
+.card-light h2,
+.card-dark h2{
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.card-light a,
+.card-dark a{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.card-light a:hover{
+  text-decoration: underline;
+}
+
+.card-dark a:hover{
+  text-decoration: underline;
 }
 
 /* TEXT */
@@ -162,10 +226,19 @@ ul{
 }
 
 .nav-box a{
-  background: #e49c8f;
-  padding: 13px 23px;
+  background: #F8AFA6;
+  padding: 20px 30px;
   border-radius: 10px;
   text-decoration: none;
   color: black;
   font-weight: 500;
+  font-size: large;
+  transition: all 0.2s ease;
+}
+
+.nav-box a:hover{
+  background: #e88d84;
+  color: #FADCD9;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }

@@ -8,8 +8,8 @@ const About = () => {
       <div className="nav-box" style={{textAlign: "center"}}>
         <Link href="/"><strong>Home</strong></Link>
         <Link href="/about"><strong>About</strong></Link>
-        <Link href="/contact"><strong>Contact</strong></Link>
         <Link href="/projects"><strong>Projects</strong></Link>
+        <Link href="/contact"><strong>Contact</strong></Link>
       </div>
 
       <div className="grid">
@@ -25,6 +25,9 @@ const About = () => {
 
         <section className="card-light education">
           <h2><strong>Education</strong></h2>
+
+          <img src="/Star-circle-design.png" className="circle-design"/>
+
 
           <p>
             Grayslake Central high School<br/>
@@ -42,7 +45,10 @@ const About = () => {
 
 
       <section className="card-light" style={{marginTop: "30px"}}>
-        <h2><strong>Experience</strong></h2>
+        <h2 className="experience-title"><strong>
+          Experience <img src="/Star-design.png" alt = "star" className="experience-star"/>
+        </strong></h2>
+
         <div className="experience-grid">
 
           <div>
@@ -67,8 +73,10 @@ const About = () => {
 
 
       <div className="grid">
-        <section className="card-light">
+        <section className="card-dark">
           <h2><strong>Skills</strong></h2>
+
+          <img src="/Arrow-design.png" className="arrow-design"/>
 
           <p><strong>Coding Languages:</strong></p>
           <ul>
@@ -88,14 +96,14 @@ const About = () => {
           </ul>
         </section>
 
-        <section className="card-dark">
-          <h2>Honors / Awards</h2>
+        <section className="card-light">
+          <h2><strong>Honors / Awards</strong></h2>
 
           <ul>
-            <li>2025 - 2026 Illinois State Scholar</li>
-            <li>2025 - 2026 UIC COE Scholarship</li>
-            <li>2023 - 2025 AP Scholar Award</li>
-            <li>2024 - 2025 National Honors Society</li>
+            <li>2025 - 2026 Illinois State Scholar</li><br/>
+            <li>2025 - 2026 UIC COE Scholarship</li><br/>
+            <li>2023 - 2025 AP Scholar Award</li><br/>
+            <li>2024 - 2025 National Honors Society</li><br/>
             <li>2023 - 2025 Spanish Honors Society</li>
           </ul>
         </section>
