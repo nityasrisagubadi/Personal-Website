@@ -200,6 +200,54 @@ body {
   text-decoration: underline;
 }
 
+.email-title{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-image{
+  display: inline-flex;
+  height: auto;
+  width: 40px;
+}
+
+.phone-title{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone-image{
+  display: inline-flex;
+  height: auto;
+  width: 18px;
+}
+
+.linkedin-image{
+  display: inline-flex;
+  height: auto;
+  width: 40px;
+}
+
+.linkedin-image{
+  display: inline-flex;
+  height: auto;
+  width: 40px;
+}
+
+.github-title{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.github-image{
+  display: inline-flex;
+  height: auto;
+  width: 40px;
+}
+
 /* TEXT */
 
 h2{

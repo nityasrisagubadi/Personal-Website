@@ -63,7 +63,7 @@ const About = () => {
           <div className="experience-box">
             <p><strong>Summer Immersion Program | Girls Who Code</strong></p>
             <ul>
-              <li>- Built multiple styles of games using the p5.js JavaScript library in Replit</li>
+              <li>- Built multiple styles of games using the p5.js JavaScript library using the Replit IDE</li>
               <li>- Collaborated in peer code reviews to improve program functionality</li>
               <li>- Gained exposure to careers in tech through mentorship</li>
             </ul>

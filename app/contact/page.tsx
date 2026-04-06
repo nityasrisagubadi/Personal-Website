@@ -23,17 +23,32 @@ const contact = () => {
         <div className="grid">
 
           <section className="card-light">
-            <h2><strong>Email: </strong></h2>
+            <h2 className="email-title"><strong>
+              <img src="/email-icon.png" alt="email-image" className="email-image"/> Email: 
+            </strong></h2>
+
+            <br/>
+
             <p>nitya.sagubadi@gmail.com</p>
           </section>
 
           <section className="card-dark">
-            <h2><strong>Phone: </strong></h2>
+            <h2 className="phone-title"><strong>
+              <img src="phone-icon.png" alt="phone-image" className="phone-image"/> Phone: 
+            </strong></h2>
+
+            <br/>
+
             <p>815-321-3084</p>
           </section>
 
           <section className="card-dark">
-            <h2><strong>LinkedIn: </strong></h2>
+            <h2 className="linkedin-title"><strong>
+              <img src="/linkedin-logo.png" alt="linkedin-logo" className="linkedin-image"/> LinkedIn: 
+            </strong></h2> 
+            
+            
+
             <a href="https://www.linkedin.com/in/nityasri-sagubadi-388172287/">
               View LinkedIn Profile
             </a>
@@ -41,7 +56,12 @@ const contact = () => {
           </section>
 
           <section className="card-light">
-            <h2><strong>GitHub: </strong></h2>
+            <h2 className="github-title"><strong>
+              <img src="/github-logo.png" alt="github-logo" className="github-image"/> GitHub: 
+            </strong></h2>
+
+            <br/>
+
             <a href="https://github.com/nityasrisagubadi">
               View GitHub Profile
             </a>
